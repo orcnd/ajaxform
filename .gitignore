@@ -1,3 +1,5 @@
 database.sqlite
 /vendor
 /cache
+.vscode
+/Avatars
