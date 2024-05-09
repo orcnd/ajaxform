@@ -1,6 +1,7 @@
 <?php 
 require 'vendor/autoload.php';
 
+header("Cache-Contro: no-cache");
 /**
  * Outputs view
  *
