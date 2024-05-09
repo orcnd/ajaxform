@@ -30,8 +30,10 @@ class Db
                 'users', function ($table) {
                     $table->increments('id');
                     $table->string('email')->unique();
-                    $table->string('password');
                     $table->string('name');
+                    //will kept as md5
+                    $table->string('password', 33);
+                    $table->string('avatar', 40)->nullable();
                     $table->timestamps();
                 }
             );

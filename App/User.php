@@ -6,5 +6,5 @@ namespace App;
  */
 class User extends \Illuminate\Database\Eloquent\Model
 {
-    protected $fillable =['email' , 'name', 'password'];
+    protected $fillable =['email' , 'name', 'password','avatar'];
 }
